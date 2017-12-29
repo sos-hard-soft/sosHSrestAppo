@@ -1,0 +1,94 @@
+package com.soshs.restappo.entity;
+
+import com.soshs.restappo.entity.Composante;
+import com.soshs.restappo.entity.ConfigMention;
+import com.soshs.restappo.entity.Diplome;
+import com.soshs.restappo.entity.DiplomeSise;
+import com.soshs.restappo.entity.GrpResultatVdi;
+import com.soshs.restappo.entity.InsAdmEtp;
+import com.soshs.restappo.entity.PeriodeAno;
+import com.soshs.restappo.entity.PrefixeInt;
+import com.soshs.restappo.entity.SpeCaracteriseVdi;
+import com.soshs.restappo.entity.TypResultat;
+import com.soshs.restappo.entity.VersionDiplome;
+import com.soshs.restappo.entity.VersionDiplomePK;
+import com.soshs.restappo.entity.VersionModeleDip;
+import java.util.Date;
+import javax.annotation.Generated;
+import javax.persistence.metamodel.CollectionAttribute;
+import javax.persistence.metamodel.SingularAttribute;
+import javax.persistence.metamodel.StaticMetamodel;
+
+@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2017-12-29T14:09:11")
+@StaticMetamodel(VersionDiplome.class)
+public class VersionDiplome_ { 
+
+    public static volatile SingularAttribute<VersionDiplome, String> daaDebValVdi;
+    public static volatile SingularAttribute<VersionDiplome, String> daaDebHabVdi;
+    public static volatile SingularAttribute<VersionDiplome, String> temStgEdtDipVdi;
+    public static volatile SingularAttribute<VersionDiplome, String> tit1VdiArb;
+    public static volatile CollectionAttribute<VersionDiplome, GrpResultatVdi> grpResultatVdiCollection;
+    public static volatile SingularAttribute<VersionDiplome, Short> nbrAdmVdi;
+    public static volatile SingularAttribute<VersionDiplome, TypResultat> codTrePos;
+    public static volatile SingularAttribute<VersionDiplome, String> it1Vdi;
+    public static volatile CollectionAttribute<VersionDiplome, SpeCaracteriseVdi> speCaracteriseVdiCollection;
+    public static volatile SingularAttribute<VersionDiplome, String> prf3Vdi;
+    public static volatile SingularAttribute<VersionDiplome, Composante> codCmp;
+    public static volatile CollectionAttribute<VersionDiplome, VersionDiplome> versionDiplomeCollection;
+    public static volatile SingularAttribute<VersionDiplome, String> it2VdiArb;
+    public static volatile SingularAttribute<VersionDiplome, String> lim2Vdi;
+    public static volatile CollectionAttribute<VersionDiplome, InsAdmEtp> insAdmEtpCollection1;
+    public static volatile SingularAttribute<VersionDiplome, Diplome> diplome;
+    public static volatile SingularAttribute<VersionDiplome, Integer> barSaiVdi;
+    public static volatile SingularAttribute<VersionDiplome, String> codDosHabVdi;
+    public static volatile SingularAttribute<VersionDiplome, String> temNotVdi;
+    public static volatile SingularAttribute<VersionDiplome, String> daaFinRctVdi;
+    public static volatile SingularAttribute<VersionDiplome, String> temEdiMenVdi;
+    public static volatile SingularAttribute<VersionDiplome, Date> datArtHabVdi;
+    public static volatile SingularAttribute<VersionDiplome, String> it2Vdi;
+    public static volatile SingularAttribute<VersionDiplome, String> it3VdiArb;
+    public static volatile SingularAttribute<VersionDiplome, VersionModeleDip> versionModeleDip;
+    public static volatile SingularAttribute<VersionDiplome, VersionDiplomePK> versionDiplomePK;
+    public static volatile SingularAttribute<VersionDiplome, String> daaFinHabVdi;
+    public static volatile SingularAttribute<VersionDiplome, PrefixeInt> codPrf2;
+    public static volatile SingularAttribute<VersionDiplome, PrefixeInt> codPrf3;
+    public static volatile SingularAttribute<VersionDiplome, String> lim3Vdi;
+    public static volatile SingularAttribute<VersionDiplome, PrefixeInt> codPrf1;
+    public static volatile SingularAttribute<VersionDiplome, String> it1VdiArb;
+    public static volatile SingularAttribute<VersionDiplome, String> temAdo;
+    public static volatile SingularAttribute<VersionDiplome, Date> datParEtb;
+    public static volatile SingularAttribute<VersionDiplome, String> daaDebRctVdi;
+    public static volatile SingularAttribute<VersionDiplome, String> daaFinValVdi;
+    public static volatile SingularAttribute<VersionDiplome, String> licVdiArb;
+    public static volatile SingularAttribute<VersionDiplome, String> temSesUni;
+    public static volatile SingularAttribute<VersionDiplome, String> tit1Vdi;
+    public static volatile CollectionAttribute<VersionDiplome, InsAdmEtp> insAdmEtpCollection;
+    public static volatile SingularAttribute<VersionDiplome, String> libCmtVdi;
+    public static volatile SingularAttribute<VersionDiplome, DiplomeSise> codSisVdi;
+    public static volatile SingularAttribute<VersionDiplome, String> licVdi;
+    public static volatile SingularAttribute<VersionDiplome, String> it3Vdi;
+    public static volatile SingularAttribute<VersionDiplome, PeriodeAno> codPan2;
+    public static volatile SingularAttribute<VersionDiplome, TypResultat> codTreNeg;
+    public static volatile SingularAttribute<VersionDiplome, PeriodeAno> codPan1;
+    public static volatile SingularAttribute<VersionDiplome, String> temMndVdi;
+    public static volatile SingularAttribute<VersionDiplome, PeriodeAno> codPan4;
+    public static volatile SingularAttribute<VersionDiplome, PeriodeAno> codPan3;
+    public static volatile SingularAttribute<VersionDiplome, String> prf1Vdi;
+    public static volatile SingularAttribute<VersionDiplome, String> temAdi;
+    public static volatile SingularAttribute<VersionDiplome, String> tit2VdiArb;
+    public static volatile SingularAttribute<VersionDiplome, String> libWebVdi;
+    public static volatile SingularAttribute<VersionDiplome, String> temResVdi;
+    public static volatile SingularAttribute<VersionDiplome, Short> nbrMinSpeVdi;
+    public static volatile SingularAttribute<VersionDiplome, ConfigMention> codCfm;
+    public static volatile SingularAttribute<VersionDiplome, Short> durAnnVdi;
+    public static volatile SingularAttribute<VersionDiplome, String> temPntJurVdi;
+    public static volatile CollectionAttribute<VersionDiplome, VersionDiplome> versionDiplomeCollection1;
+    public static volatile SingularAttribute<VersionDiplome, String> tit2Vdi;
+    public static volatile SingularAttribute<VersionDiplome, String> temResThsVdi;
+    public static volatile SingularAttribute<VersionDiplome, String> temEdSpecSise;
+    public static volatile SingularAttribute<VersionDiplome, String> prf2Vdi;
+    public static volatile SingularAttribute<VersionDiplome, String> temJurVdi;
+    public static volatile SingularAttribute<VersionDiplome, Short> nbrMaxSpeVdi;
+    public static volatile SingularAttribute<VersionDiplome, String> lim1Vdi;
+
+}

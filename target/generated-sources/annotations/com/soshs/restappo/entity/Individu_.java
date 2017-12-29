@@ -1,0 +1,97 @@
+package com.soshs.restappo.entity;
+
+import com.soshs.restappo.entity.AnneeUni;
+import com.soshs.restappo.entity.Etablissement;
+import com.soshs.restappo.entity.IndOpi;
+import com.soshs.restappo.entity.InsAdmAnu;
+import com.soshs.restappo.entity.InsInfoAnu;
+import com.soshs.restappo.entity.InsPedagogiAnu;
+import com.soshs.restappo.entity.Pays;
+import com.soshs.restappo.entity.PhoEtu;
+import com.soshs.restappo.entity.ResultatElp;
+import com.soshs.restappo.entity.ResultatEpr;
+import com.soshs.restappo.entity.SitFam;
+import com.soshs.restappo.entity.SitMil;
+import com.soshs.restappo.entity.TypHandicap;
+import com.soshs.restappo.entity.Utilisateur;
+import java.util.Date;
+import javax.annotation.Generated;
+import javax.persistence.metamodel.CollectionAttribute;
+import javax.persistence.metamodel.SingularAttribute;
+import javax.persistence.metamodel.StaticMetamodel;
+
+@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2017-12-29T14:09:12")
+@StaticMetamodel(Individu.class)
+public class Individu_ { 
+
+    public static volatile SingularAttribute<Individu, String> daaEntEtb;
+    public static volatile SingularAttribute<Individu, String> codCiv;
+    public static volatile SingularAttribute<Individu, String> codTypDepPayNai;
+    public static volatile SingularAttribute<Individu, Date> datDebTierInd;
+    public static volatile SingularAttribute<Individu, SitMil> codSim;
+    public static volatile SingularAttribute<Individu, String> dmmLbtInd;
+    public static volatile SingularAttribute<Individu, String> libPrePer;
+    public static volatile SingularAttribute<Individu, String> codSexEtu;
+    public static volatile SingularAttribute<Individu, Date> datCreInd;
+    public static volatile SingularAttribute<Individu, String> libPr2Ind;
+    public static volatile SingularAttribute<Individu, String> temCrtSsoEtu;
+    public static volatile SingularAttribute<Individu, Date> datFinTierInd;
+    public static volatile CollectionAttribute<Individu, ResultatEpr> resultatEprCollection;
+    public static volatile SingularAttribute<Individu, String> libNomPatPer;
+    public static volatile SingularAttribute<Individu, Date> datBloInd;
+    public static volatile SingularAttribute<Individu, Date> datDebFauInd;
+    public static volatile SingularAttribute<Individu, String> libVilNaiEtuArb;
+    public static volatile SingularAttribute<Individu, String> cinInd;
+    public static volatile CollectionAttribute<Individu, ResultatElp> resultatElpCollection;
+    public static volatile CollectionAttribute<Individu, InsAdmAnu> insAdmAnuCollection;
+    public static volatile SingularAttribute<Individu, AnneeUni> codAnuSrtInd;
+    public static volatile SingularAttribute<Individu, String> etaPrsEtu;
+    public static volatile SingularAttribute<Individu, Date> datFinAidInd;
+    public static volatile SingularAttribute<Individu, String> temNnePrvInd;
+    public static volatile SingularAttribute<Individu, PhoEtu> phoEtu;
+    public static volatile SingularAttribute<Individu, Utilisateur> codUti;
+    public static volatile SingularAttribute<Individu, Date> dateNaiInd;
+    public static volatile SingularAttribute<Individu, Date> datFinFauInd;
+    public static volatile SingularAttribute<Individu, String> libPr3Ind;
+    public static volatile CollectionAttribute<Individu, InsInfoAnu> insInfoAnuCollection;
+    public static volatile SingularAttribute<Individu, Integer> codEtu;
+    public static volatile SingularAttribute<Individu, String> codNniEtu;
+    public static volatile SingularAttribute<Individu, IndOpi> codIndOpi;
+    public static volatile SingularAttribute<Individu, Utilisateur> codUtiMod;
+    public static volatile SingularAttribute<Individu, String> codCleNneInd;
+    public static volatile SingularAttribute<Individu, SitFam> codFam;
+    public static volatile SingularAttribute<Individu, String> temFauInd;
+    public static volatile SingularAttribute<Individu, Etablissement> codEtb;
+    public static volatile SingularAttribute<Individu, String> temTierInd;
+    public static volatile SingularAttribute<Individu, String> codCleNniEtu;
+    public static volatile CollectionAttribute<Individu, InsPedagogiAnu> insPedagogiAnuCollection;
+    public static volatile SingularAttribute<Individu, String> libCmtBlo;
+    public static volatile SingularAttribute<Individu, String> daaEtb;
+    public static volatile SingularAttribute<Individu, String> temRglSitMil;
+    public static volatile SingularAttribute<Individu, String> libPreMer;
+    public static volatile SingularAttribute<Individu, String> codNneInd;
+    public static volatile SingularAttribute<Individu, String> libNomPatInd;
+    public static volatile SingularAttribute<Individu, String> libVilNaiEtu;
+    public static volatile SingularAttribute<Individu, Utilisateur> codUtiBlo;
+    public static volatile SingularAttribute<Individu, Date> datDebAidInd;
+    public static volatile SingularAttribute<Individu, String> etaCohDosInd;
+    public static volatile SingularAttribute<Individu, String> libNomUsuInd;
+    public static volatile SingularAttribute<Individu, String> numBrsEtu;
+    public static volatile SingularAttribute<Individu, TypHandicap> codThp;
+    public static volatile SingularAttribute<Individu, String> daaEnsSup;
+    public static volatile SingularAttribute<Individu, Date> datModInd;
+    public static volatile SingularAttribute<Individu, String> temSanObjPerInd;
+    public static volatile SingularAttribute<Individu, String> temDateNaiRel;
+    public static volatile SingularAttribute<Individu, Pays> codPayNat;
+    public static volatile SingularAttribute<Individu, String> libPr1Ind;
+    public static volatile SingularAttribute<Individu, String> temSanObjMerInd;
+    public static volatile SingularAttribute<Individu, String> libNomPatMer;
+    public static volatile SingularAttribute<Individu, String> daaLbtInd;
+    public static volatile SingularAttribute<Individu, String> libNomIndArb;
+    public static volatile SingularAttribute<Individu, String> codDepPayNai;
+    public static volatile SingularAttribute<Individu, String> libPrnIndArb;
+    public static volatile SingularAttribute<Individu, Integer> codInd;
+    public static volatile CollectionAttribute<Individu, IndOpi> indOpiCollection;
+    public static volatile SingularAttribute<Individu, String> temAidInd;
+
+}
